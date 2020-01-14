@@ -1,0 +1,2 @@
+SELECT CITY, STATE FROM STATION;
+WHERE LAT_N = 'northern latitude' AND LONG_W = 'western longitude';
