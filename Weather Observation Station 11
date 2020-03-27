@@ -1,0 +1,3 @@
+select distinct city from STATION
+where not((city like "%a" or city like "%e" or city like "%i" or city like "%u" or city like "%o") 
+and (city like "a%" or city like "e%" or city like "i%" or city like "u%" or city like "o%"));
